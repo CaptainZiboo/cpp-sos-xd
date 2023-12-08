@@ -1,0 +1,15 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Ordinateur local": [
+      "out\\build\\default"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\vcpkg_installed\\vcpkg",
+    "\\vcpkg_installed\\vcpkg\\info",
+    "\\vcpkg_installed\\vcpkg\\updates"
+  ],
+  "SelectedNode": "\\server.cpp",
+  "PreviewInSolutionExplorer": false
+}

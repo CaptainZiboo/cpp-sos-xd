@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/uwebsockets-x64-windows-20.45.0-3379b709-b625-49a3-b1bb-94b9baecb35b",
+  "name": "uwebsockets:x64-windows@20.45.0 81a5a029bd6ccd33701808fceef89751762f4d802a56c83bd6898fce4bbc1f01",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-4c1df40a3c5c5e18de299a99e9accb03c2a82e1e"
+    ],
+    "created": "2023-12-08T12:35:23Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "uwebsockets",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "20.45.0",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@db7e8088e0a542c51cea89ed081e8bcae6baec8c",
+      "homepage": "https://github.com/uWebSockets/uWebSockets",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Simple, secure & standards compliant web I/O for the most demanding of applications",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "uwebsockets:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "81a5a029bd6ccd33701808fceef89751762f4d802a56c83bd6898fce4bbc1f01",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "uNetworking/uWebSockets",
+      "downloadLocation": "git+https://github.com/uNetworking/uWebSockets@v20.45.0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "38022fc555a89654828d872ef2b4ef3a6b01e8eccfe511cb8df37dff772c6c09b379933da73606970ac8581333b3be26ad7b0a8cdec8d19fe05b326fbf4f6c84"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/lulup/AppData/Local/vcpkg/registries/git-trees/db7e8088e0a542c51cea89ed081e8bcae6baec8c/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4723bbd4a6fc9a12f7bf9d3a0696ae9b8c05f91783696f2e1fd31ac7b8a575c0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/lulup/AppData/Local/vcpkg/registries/git-trees/db7e8088e0a542c51cea89ed081e8bcae6baec8c/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1fe4734ad8808e41ce681cd9039daee80cd974747fe3a61dfe473f24861644bb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

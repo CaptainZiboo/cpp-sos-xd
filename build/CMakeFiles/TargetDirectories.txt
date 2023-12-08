@@ -1,0 +1,3 @@
+C:/Dev/cpp/server/build/CMakeFiles/server.dir
+C:/Dev/cpp/server/build/CMakeFiles/ALL_BUILD.dir
+C:/Dev/cpp/server/build/CMakeFiles/ZERO_CHECK.dir

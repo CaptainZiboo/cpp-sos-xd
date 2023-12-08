@@ -1,0 +1,9 @@
+﻿{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "default",
+      "toolchainFile": "C:/Dev/.tools/vcpkg/scripts/buildsystems/vcpkg.cmake"
+    }
+  ]
+}
