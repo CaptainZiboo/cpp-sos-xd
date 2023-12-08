@@ -1,6 +1,6 @@
 Detecting compiler hash for triplet x64-windows...
 All requested packages are currently installed.
-Total install time: 800 ns
+Total install time: 400 ns
 uwebsockets is header-only and can be used from CMake via:
 
     find_path(UWEBSOCKETS_INCLUDE_DIRS "uwebsockets/App.h")
